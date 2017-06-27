@@ -1,0 +1,17 @@
+{
+  "name": "with-offline-plugin",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.15",
+    "next": "^2.4.5",
+    "offline-plugin": "^4.8.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-no-ssr": "^1.1.0"
+  }
+}
